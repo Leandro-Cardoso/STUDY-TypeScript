@@ -1,0 +1,13 @@
+"use strict";
+let numeros = [1, 2, 3];
+let valores = ['A', 1, 'B', 7, 'C', 10];
+let outros = ['isDead', false, 'isTalking', true];
+console.log('\n', numeros);
+console.log(valores);
+console.log(outros, '\n');
+numeros.unshift(0);
+console.log(numeros, '\n');
+numeros.shift();
+console.log(numeros, '\n');
+let numerosCost = [10, 20, 30];
+console.log(numerosCost, '\n');
